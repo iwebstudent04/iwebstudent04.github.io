@@ -112,3 +112,27 @@ Footer nav ul{
         grid-template-columns: 1fr 1fr;
     }
 }
+
+/* SUB PAGES */
+.page-sub .hero {
+    backround: #888;
+    min-height: 30vh;
+
+/* BLOG Archives */
+ .blog-archives{
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+.blog-entry{
+    border: 1px solid #ddd;
+    padding: 2em;
+    margin: 2em 0;
+    color; black;
+}
+
+.date {
+    opacity: .5;
+
+}
