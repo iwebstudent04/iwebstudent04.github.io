@@ -1,10 +1,14 @@
 
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
 
 body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     color: aquamarine;
+    font-family: 'Raleway', sans-serif;
+   
 }
 
 h1 {
@@ -12,6 +16,8 @@ h1 {
     text-transform: lowercase;
     margin: 0;
     color: aquamarine;
+    font-family: 'Raleway', sans-serif;
+  
 }
 
 /* HEADER */
@@ -19,15 +25,17 @@ header{
     background: black;
     color: white;
     padding: 1em 2em;
+    
 }
 header a{
-    color: white;
+    color: rgba(28, 175, 131, 0.651);
 }
 
 header{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    
 }
 
 /* SITE ID */
@@ -58,11 +66,13 @@ nav a{
 main{
     padding: 0 0 3em 0;
     min-height: 80vh;
+    color: rgba(28, 175, 131, 0.651);
 }
 
 /* SECTIONS */
 section{
     padding: 3em 1em;
+    color: rgba(28, 175, 131, 0.651);
 }
 
 /* FOOTER */
@@ -70,22 +80,47 @@ footer{
     border-top: 1px solid rgb(4, 90, 105);
     max-width: 1000px;
     margin: 0 auto;
-    background: rgb(0, 0, 0);
+    background: 000;
     color: white;
+    
 }
 Footer nav ul{
     justify-content: center;
+    color: rgba(28, 175, 131, 0.651);
 }
-
+/* CATAGORIES */
+.catagory{
+    color:rgba(28, 175, 131, 0.651);
+}
+.catagory a{
+    color: rgba(28, 175, 131, 0.651);
+    
+}
 /* HERO */
 .hero{
     display: grid;
     align-content: center;
     text-align: center;
-    background: rgb(4, 97, 81);
+    background: rgba(2, 83, 70, 0.603);
     min-height: 50vh;
     color: white;
+    color: rgba(2, 83, 69, 0.692);
 }
+    .page-home .hero {
+            background-image: url('https://picsum.photos/id/11/1600/800');
+            background-position: center;
+            background-size: cover;
+        }
+    .page-about .hero {
+            background-image: url('https://picsum.photos/id/13/1500/800?blur=2');
+            background-position: center;
+            background-size: cover;
+        }
+    .page-blog .hero {
+            background-image: url('https://picsum.photos/id/13/1500/800?blur=2S');
+            background-position: center;
+            background-size: cover;
+        }
 
 .hero h2{
     font-size: 3em;
@@ -95,6 +130,9 @@ Footer nav ul{
 
 .hero p{
     margin: 1em auto;
+}
+.page-sub .hero {
+    min-height: 30vh;
 }
 
 /* LISTS */
@@ -114,22 +152,20 @@ Footer nav ul{
 }
 
 /* SUB PAGES */
-.page-sub .hero {
-    backround: #888;
-    min-height: 30vh;
 
 /* BLOG Archives */
- .blog-archives{
+.blog-archives{
     max-width: 600px;
     margin: 0 auto;
-    
 }
 
+
 .blog-entry{
-    border: 1px solid #ddd;
+    border: 1px solid rgb(1, 51, 32);
     padding: 2em;
     margin: 2em 0;
-    color; black;
+    color: rgba(28, 175, 131, 0.651);
+    font-size: 90;
 }
 
 .date {
