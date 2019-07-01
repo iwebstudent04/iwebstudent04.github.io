@@ -107,7 +107,7 @@ Footer nav ul{
     color: rgba(2, 83, 69, 0.692);
 }
     .page-home .hero {
-            background-image: url('https://picsum.photos/id/11/1600/800');
+            background-image: url('https://picsum.photos/id/11/1600/800?blur=3');
             background-position: center;
             background-size: cover;
         }
@@ -117,7 +117,7 @@ Footer nav ul{
             background-size: cover;
         }
     .page-blog .hero {
-            background-image: url('https://picsum.photos/id/13/1500/800?blur=2S');
+            background-image: url('https://picsum.photos/id/13/1500/800?blur=2');
             background-position: center;
             background-size: cover;
         }
@@ -165,7 +165,7 @@ Footer nav ul{
     padding: 2em;
     margin: 2em 0;
     color: rgba(28, 175, 131, 0.651);
-    font-size: 90;
+    font-size: 20;
 }
 
 .date {
