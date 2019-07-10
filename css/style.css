@@ -151,7 +151,15 @@ Footer nav ul{
     }
 }
 
-/* SUB PAGES */
+
+
+/*  CUSTOM UI-DESIGNS */
+.ui-designs {
+    text-align: center;
+}
+.ui-designs img {
+max-width: 200px;
+}
 
 /* BLOG Archives */
 .blog-archives{
