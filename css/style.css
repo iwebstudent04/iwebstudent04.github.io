@@ -156,9 +156,11 @@ Footer nav ul{
 /*  CUSTOM UI-DESIGNS */
 .ui-designs {
     text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 .ui-designs img {
-max-width: 200px;
+    max-width: 200px;
 }
 
 /* BLOG Archives */
